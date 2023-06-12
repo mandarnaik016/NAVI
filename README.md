@@ -12,7 +12,6 @@ enabling an impaired person to walk outdoors easily.
 ![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/graphic_upper_300_DPI.png)
 ![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/graphic_lower_300_DPI.png)
 
-
 ## Screenshots
 
 ![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/2023-02-12%2014_11_37-frame_300_DPI.png)
