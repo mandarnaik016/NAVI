@@ -7,17 +7,17 @@ enabling an impaired person to walk outdoors easily.
 
 ![Logo](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/MIXED/PPT/Images/blind.jpg)
 
-## Screenshots
-
-![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/MIXED/PPT/Images/after.jpeg)
-![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/2023-02-12%2014_11_37-frame_300_DPI.png)
-![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/2023-02-12%2014_13_19-frame_300_DPI.png)
-![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/2023-02-12%2014_16_20-frame_300_DPI.png)
-
 ## Illustration
 
 ![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/graphic_upper_300_DPI.png)
 ![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/graphic_lower_300_DPI.png)
+
+
+## Screenshots
+
+![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/2023-02-12%2014_11_37-frame_300_DPI.png)
+![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/2023-02-12%2014_13_19-frame_300_DPI.png)
+![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/2023-02-12%2014_16_20-frame_300_DPI.png)
 
 ## Demonstration
 
