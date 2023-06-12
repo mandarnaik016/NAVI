@@ -5,15 +5,24 @@ are blind or have vision loss, ranging from partial sight. The
 proposed system will be suitable for reducing collision risks by
 enabling an impaired person to walk outdoors easily.
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/MIXED/PPT/Images/blind.jpg)
 
 ## Screenshots
 
-![App Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/MIXED/PPT/Images/after.jpeg)
+![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/2023-02-12%2014_11_37-frame_300_DPI.png)
+![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/2023-02-12%2014_13_19-frame_300_DPI.png)
+![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/2023-02-12%2014_16_20-frame_300_DPI.png)
+
+## Illustration
+
+![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/graphic_upper_300_DPI.png)
+![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/graphic_lower_300_DPI.png)
 
 ## Demonstration
 
-![App Screenshot](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/Glasses_300_DPI.png.png)
+![App Screenshot](https://cdn.jsdelivr.net/gh/mandarnaik016/NAVI@main/DOC/CONF/prototype_shoe_300_DPI.png)
 
 ## License
 
