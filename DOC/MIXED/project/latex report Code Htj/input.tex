@@ -1,0 +1,288 @@
+\documentclass[20pt,oneside]{report}
+\usepackage{graphicx}
+\usepackage[a4paper,width=125mm,top=20mm,bottom=20mm]{geometry}
+%\pagestyle{fancy}
+%\chead{}
+%\lhead{}
+\begin{center}\\
+
+\includegraphics     {Bharati_Logo.png}\\
+
+{\LARGE{ \bf{ Bharati Vidyapeeth College of Engineering, Navi
+Mumbai}}}\\
+\vspace{0.2in}
+{\large \bf A}\\
+{\large \bf  REPORT ON }\\
+{\large \bf ON}\\
+\vspace{0.2in}
+{\LARGE \bf Faster approach to finding brain tumors using pre-processing techniques}\\
+\vspace{0.2in}
+{\large \bf For}\\
+\vspace{0.2in}
+{\LARGE \bf Major Project 1 (REV- 2019 C Scheme) of Final year, (BE Sem-VII)}\\
+\vspace{0.2in}
+{\large \bf In}\\
+\vspace{0.2in}
+{\LARGE \bf Electronics and Telecommunication}\\
+\vspace{0.2in}
+{\LARGE \bf Engineering}\\
+
+\vspace{0.2in}
+{\LARGE\textit{Submitted by}}\\
+\vspace{0.2in}
+{\LARGE\bf 1)Harshtej Sorate B(57)}\\
+{\LARGE\bf 2)Sagar Vibhute B(67)}\\
+{\LARGE\bf 3)Rahul Wadwani B(68)}\\
+{\LARGE\bf 4)Rutuja Yadav B(69)}\\
+
+\vspace{0.2in}
+{\LARGE\textit{Guide By}}\\
+\vspace{0.12in}
+{\LARGE\bf Prof.S.R.Wategaonkar}\\
+\vspace{1.0in}\\
+
+\\
+{\LARGE \bf2022-2023}
+\\
+\newpage
+
+\begin{center}
+\begin{comment}
+\begin{figure*}[h]
+
+\end{figure*}
+\end{center}
+\end{comment}
+
+{\LARGE \bf CERTIFICATE}\\
+\vspace{0.3in}
+
+\usepackage[a4paper,width=100mm,top=25mm,bottom=25mm]{geometry}
+{\Large \bf This is to certify that the project report entitled Faster approach to finding brain tumors using pre-processing techniques is a Bonafide work of }\\
+
+\vspace{0.4in}
+{\large \bf 1)Harshtej Sorate B(57)}\\
+{\large \bf 2)Sagar Vibhute B(67)}\\
+{\large \bf 3)Rahul Wadwani B(68)}\\
+{\large \bf 4)Rutuja Yadav B(69)}\\
+
+\end{center}
+\vspace{0.4in}
+{\large \bf Submitted to the University of Mumbai in partial fulfillment of the requirement for the award of Major Project 1(REV- 2019 C Scheme) of Final  Year, (BE Sem-VII) in Electronics & Telecommunication Engineering as laid down by University of Mumbai during academic year 2022-23. }\\
+\\
+%\vspace{0.2in}
+\\
+\vspace{1.0in}
+
+
+\\
+\\
+\\
+\\\
+\\\
+
+\\
+\\
+
+\\
+
+\\
+
+\\
+\\
+
+
+
+\begin{center}
+\begin{tabular}{l s r}
+\textbf{Prof.S.R.Wategaonkar} &\hspace{0.2in} \textbf{Dr.P.A.Kharade.} &\hspace{0.2in}\hspace{0.2in} \textbf{Dr.Sandhya Jadhav} \\ 
+\hspace{0.5in} Guide &\hspace{0.2in} Head of Department
+& Principal\hspace*9\hspace*9\hspace*9
+
+
+
+\end{tabular}
+\end{center} 
+
+
+\newpage
+\begin{center}
+{\LARGE \bf Project Report Approval}\\
+\vspace{0.2in}
+{\Large  This project report entitles \bf "Faster approach to finding brain tumors using pre-processing techniques"} {\LARGE by}\\
+
+\vspace{0.2in}
+{\large 1)Harshtej Sorate B(57)}\\
+{\large 2)Sagar Vibhute B(67)}\\
+{\large  3)Rahul Wadwani B(68)}\\
+{\large 4)Rutuja Yadav B(69)}\\
+\vspace{0.2in}
+{\large is approved for the degree of bachelors of engineering (Electronics and Telecommunication engineering)}\\
+\vspace{1in}
+
+\begin{
+\end{align*}
+
+
+\LARGE\textbf{Examiner } & \hspace{1.5 in}\\\vspace{0.6in} \textbf{1)--------------------}\\\vspace{0.6in}\textbf{2)-------------------- }  } 
+
+\vspace{2in}
+
+
+\textbf{Date:} & \hspace{1.9 in}\textbf{Place:} } \\ 
+
+\end{tabular}
+\end{center}
+
+
+
+\newpage 
+\begin{center}
+{\LARGE \bf ACKNOWLEDMENT  }\\
+
+\vspace{0.2in} 
+{\large We are thankful to "Bharati Vidyapeeth College of Engineering" for considering our project report and considering us through the various stages of the project report. It gives us immense pleasure to express our sincere gratitude of Prof. S. R. Wategaonkar for his guidance in selecting the final year project report and also for providing us with all the details. \\
+\vspace{0.2in}
+
+We are deeply indebted to our respected Head of The Department of Electronics and Engineering, Dr. P. A. Kharade, for giving us this valuable opportunity to do this project and we express our heartily thanks to them for their assistance without which it would have been difficult in finishing this final year project report successfully.\\
+\vspace{0.2in}
+
+We are also thankful to our respected Principal, Dr. Sandhya D. Jadhav. We convey our deep sense of gratitude to all teaching and non-teaching staff of The Department of Electronics and Telecommunication Engineering for their constant encouragement, support and timely help throughout the final year project report work.}
+
+
+
+
+\begin{figure*}[h]
+
+\end{figure*}
+
+\newpage
+\begin{center}
+{\LARGE \bf Index}\\
+\vspace{0.2in}
+
+
+\LARGE\begin{tabular}{|c|p{13cm}|}
+    \hline
+    Sr.No &NAME OF TOPIC\\
+    \hline
+    1 & Abstract \\
+    \hline
+    2 & Introduction \\
+    \hline
+    3 & Literature survey\\
+    \hline
+     a). & Survey Existing System\\
+    \hline
+     b). & Limitation of existing system or research  gap \\
+    \hline
+     c). & Problem Statement, Objective  \\
+    \hline
+     d). & Scope \\
+    \hline
+     4 & Proposed System \\
+    \hline
+      a). &Analysis/Framework/Algorithm \\
+    \hline
+      b). & Details of Hardware and software\\ 
+    \hline
+      c). & Design Details Methodology\\
+    \hline
+     5 & Implementation Plan for Next semester   \\
+    \hline
+     6 & Conclusion \\
+    \hline
+     7& References \\
+    \hline
+\end{tabular}
+
+
+
+\newpage
+\begin{center}
+{\LARGE \bf Abstract}\\
+Write abstract of your project  
+
+\newpage
+\begin{center}
+{\LARGE \bf Introduction}\\
+In detail Introduction of your project
+
+
+
+
+\newpage
+\begin{center}
+{\LARGE \bf Literature survey}\\
+Detailed literature survey of your project 
+
+
+\newpage
+\begin{center}
+{\LARGE \bf Survey Exisiting System}\\
+Detailed survey of exisiting system of your project 
+
+
+\newpage
+\begin{center}
+{\LARGE \bf Limitation of existing system or Research gap }\\
+Limitation of existing system of your project 
+
+
+
+
+
+\newpage
+\begin{center}
+{\LARGE \bf Problem Statement and Objective}\\
+Detailed problem statement and objective of your project
+
+
+\newpage
+\begin{center}
+{\LARGE \bf Scope}\\
+scope of your project 
+
+
+
+
+% proposed System
+
+\newpage
+\begin{center}
+{\LARGE \bf Analysis/ Framework/Algorithm}\\
+related algorithm/framework of your project
+
+
+\newpage
+\begin{center}
+{\LARGE \bf Details of hardware and software}\\
+block diagram and flowchart of your project
+
+
+
+
+\newpage
+\begin{center}
+{\LARGE \bf Design Details Methodology}\\
+Write your project methodology 
+
+
+
+\newpage
+\begin{center}
+{\LARGE \bf Implementation Plan For Next Semester}
+Explain your project in detail plan 
+\end{center}
+
+
+\newpage
+\begin{center}
+{\LARGE \bf Conclusion}\\
+Conclusion of your project 
+
+\newpage 
+\begin{center}
+{\LARGE \bf References}\\
+Related reference of your project 
+\end{document}

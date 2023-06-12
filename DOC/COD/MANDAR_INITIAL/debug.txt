@@ -1,0 +1,5 @@
+conda update anaconda-navigator  
+conda update navigator-updater
+pip install opencv-python
+OR
+conda install -c https://conda.binstar.org/menpo opencv

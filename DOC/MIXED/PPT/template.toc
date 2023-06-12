@@ -1,0 +1,9 @@
+\beamer@sectionintoc {1}{Planning}{3}{0}{1}
+\beamer@sectionintoc {2}{Design}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Blocks}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Columns}{8}{0}{2}
+\beamer@sectionintoc {3}{Table and Figure Examples}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{Table}{9}{0}{3}
+\beamer@subsectionintoc {3}{2}{Figure}{10}{0}{3}
+\beamer@sectionintoc {4}{Mathematics}{11}{0}{4}
+\beamer@sectionintoc {5}{Referencing}{16}{0}{5}
